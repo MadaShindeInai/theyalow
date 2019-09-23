@@ -3,6 +3,10 @@ ul {
   padding: 0;
 }
 
+h1 {
+  margin: 0;
+}
+
 a {
   display: block;
 
@@ -107,4 +111,35 @@ a {
 
 .navbar__button_contact-padding {
   padding: 0 22px 0 16px;
+}
+
+.video_position {
+  margin-top: 57px;
+  margin-right: 17px;
+  margin-bottom: 71px;
+  margin-left: 10px;
+}
+
+.text-wrapper {
+  margin: 0 auto 51px auto;
+
+  text-align: center;
+}
+
+.video-text {
+  font-weight: 400;
+  font-size: 63px;
+  line-height: 1.2;
+  font-family: "Asap";
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.video-text_colored {
+  color: #f5c506;
+}
+
+.video-text_uncolored-padding {
+  padding-left: 12px;
 }

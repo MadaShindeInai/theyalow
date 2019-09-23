@@ -12,9 +12,11 @@
 <body>
   <div class="wrapper">
     <header class="wrapper__inner d-flex justify-between align-flex-end">
-      <div class="logo logo_position d-flex align-center">
-        <img src="./assets/images/logoimg.png" alt="Logo" width="85" height="85">
-        <span class="logo__text">THEYALOW</span>
+      <div class="logo logo_position ">
+        <a class="d-flex align-center" href="#" target="_blank" rel="noopener">
+            <img src="./assets/images/logoimg.png" alt="Logo" width="85" height="85">
+            <h1 class="logo__text">THEYALOW</h1>
+        </a>
       </div>
       <nav class="navbar">
         <ul class="navbar__inner d-flex">
@@ -39,8 +41,16 @@
         </ul>
       </nav>
     </header>
-    <section class="wrapper__inner ">
-
+    <section class="wrapper__inner d-flex align-center ">
+        <video class="video_position" poster="./assets/images/posterVideo.png" autoplay="autoplay" loop="loop" controls="controls" tabindex="0">
+            <source src="movie.webm" type='video/webm; codecs="vp8, vorbis"' />
+            <source src="movie.ogv" type='video/ogg; codecs="theora, vorbis"' />
+        </video>
+        <div class="text-wrapper">
+          <h2 class="video-text video-text_colored">
+            THE COOL <br><span class="video-text video-text_uncolored-padding">THE MINIMAL</span>
+          </h2>
+        </div>
     </section>
   </div>
 </body>
