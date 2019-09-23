@@ -3,7 +3,8 @@ ul {
   padding: 0;
 }
 
-h1 {
+h1,
+h3 {
   margin: 0;
 }
 
@@ -13,7 +14,7 @@ a {
   text-decoration: none;
 }
 
-.wrapper {
+.wrapper-header {
   background-image: url(../assets/images/HeaderBG.jpg);
   background-size: cover;
 }
@@ -26,6 +27,7 @@ a {
 .logo_position {
   padding-top: 28px;
 }
+
 .d-flex {
   display: flex;
 }
@@ -45,6 +47,7 @@ a {
 .navbar__inner {
   list-style-type: none;
 }
+
 .logo__text {
   display: block;
   padding-top: 10px;
@@ -74,11 +77,7 @@ a {
   box-shadow: -10px -14px 0 rgba(240, 255, 0, 0.37), -5px -7px 0 rgba(240, 255, 0, 0.37);
 }
 
-
-
 .navbar_button_transparent-border {
-  margin-right: 5px;
-
   border-right-color: transparent;
 }
 
@@ -112,7 +111,7 @@ a {
 .navbar__button_contact-padding {
   padding: 0 22px 0 16px;
 }
-
+/* video section classes */
 .video_position {
   margin-top: 57px;
   margin-right: 17px;
@@ -142,4 +141,80 @@ a {
 
 .video-text_uncolored-padding {
   padding-left: 12px;
+}
+/* section 1  */
+.wrapper-section1 {
+  background-image: url(../assets/images/bgsec1.png);
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.info-block {
+  border-right: 1px solid #d2d2d2;
+  border-left: 1px solid #d2d2d2;
+}
+
+.info-block_design_padding-top {
+  padding-top: 60px;
+  padding-bottom: 39px;
+}
+
+.info-block_customise_padding-top {
+  padding-top: 37px;
+  padding-bottom: 38px;
+}
+
+.info-block_free_padding-top {
+  padding-top: 53px;
+  padding-bottom: 38px;
+}
+
+.info-block_optional-border {
+  border-right: 0;
+}
+
+.info-block__text {
+  font-weight: 300;
+  font-size: 27px;
+  line-height: 1;
+  font-family: "Segoe UI";
+  text-align: center;
+  color: #000000;
+  letter-spacing: 0;
+}
+
+.info-block_size {
+  width: 339px;
+}
+
+.info-block__image_design-position {
+  display: block;
+  margin: 0 auto 14px;
+  padding-right: 11px;
+}
+
+.info-block__image_customise-position {
+  display: block;
+  margin: 0 auto 17px;
+  padding-left: 20px;
+}
+
+.info-block__image_free-position {
+  display: block;
+  margin: 0 auto 12px;
+  padding-right: 25px;
+}
+
+.info-block__text_position_free-block {
+  padding-right: 18px;
+}
+
+.info-block__text_position_customise-block {
+  padding-left: 19px;
+}
+
+.info-block__text_position_design-block {
+  padding-left: 17px;
 }
