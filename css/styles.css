@@ -1,1 +1,110 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
 
+a {
+  display: block;
+
+  text-decoration: none;
+}
+
+.wrapper {
+  background-image: url(../assets/images/HeaderBG.jpg);
+  background-size: cover;
+}
+
+.wrapper__inner {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.logo_position {
+  padding-top: 28px;
+}
+.d-flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-flex-end {
+  align-items: flex-end;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.navbar__inner {
+  list-style-type: none;
+}
+.logo__text {
+  display: block;
+  padding-top: 10px;
+  padding-left: 4px;
+
+  font-style: italic;
+  font-size: 41px;
+  font-family: "Lucida Sans";
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 0;
+}
+
+.navbar__button {
+  background-color: #f5c506;
+  border-right: 1px solid #b99403;
+  box-shadow: -10px -10px 0 rgba(245, 197, 6, 0.27), -5px -5px 0 rgba(245, 197, 6, 0.27);
+}
+
+.navbar__button:hover {
+  z-index: 1;
+
+  margin-right: 10px;
+  margin-left: 10px;
+
+  background-color: rgba(240, 255, 0, 1);
+  box-shadow: -10px -14px 0 rgba(240, 255, 0, 0.37), -5px -7px 0 rgba(240, 255, 0, 0.37);
+}
+
+
+
+.navbar_button_transparent-border {
+  margin-right: 5px;
+
+  border-right-color: transparent;
+}
+
+.navbar_button_margin-right {
+  margin-right: 5px;
+}
+
+.navbar__text {
+  padding-left: 3px;
+
+  font-size: 17px;
+  line-height: 2.4;
+  font-family: "Segoe WP";
+  text-align: center;
+  color: #b99403;
+  letter-spacing: 0;
+}
+
+.navbar__text_about-us-padding {
+  padding-left: 6px;
+}
+
+.navbar__button_about-us-padding {
+  padding: 0 22px 0 36px;
+}
+
+.navbar__button_services-padding {
+  padding: 0 21px 0 15px;
+}
+
+.navbar__button_contact-padding {
+  padding: 0 22px 0 16px;
+}
