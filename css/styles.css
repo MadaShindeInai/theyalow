@@ -24,12 +24,29 @@ a {
 
 .carousell-controls {
   position: absolute;
-  top: 200px;
+  top: 302px;
 
-  width: 20px;
-  height: 20px;
+  box-sizing: border-box;
+  width: 32px;
+  height: 56px;
+  padding-top: 19px;
+  padding-left: 8px;
 
-  background-color: red;
+  background-color: #c7a60d;
+}
+
+.carousell-controls2 {
+  position: absolute;
+  top: 302px;
+  right: 0;
+
+  box-sizing: border-box;
+  width: 32px;
+  height: 56px;
+  padding-top: 19px;
+  padding-left: 11px;
+
+  background-color: #c7a60d;
 }
 
 .wrapper__inner {
@@ -127,7 +144,7 @@ a {
 /* video section classes */
 .video_position {
   margin-top: 57px;
-  margin-right: 17px;
+  margin-right: 32px;
   margin-bottom: 71px;
   margin-left: 10px;
 }
