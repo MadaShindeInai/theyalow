@@ -95,7 +95,7 @@ a {
 
   font-style: italic;
   font-size: 41px;
-  font-family: "Lucida Sans";
+  font-family: "Lucida Sans", sans-serif;
   text-align: center;
   color: #ffffff;
   letter-spacing: 0;
@@ -135,7 +135,7 @@ a {
 
   font-size: 17px;
   line-height: 2.4;
-  font-family: "Segoe WP";
+  font-family: "Segoe WP", sans-serif;
   text-align: center;
   color: #b99403;
   letter-spacing: 0;
@@ -174,7 +174,7 @@ a {
   font-weight: 400;
   font-size: 63px;
   line-height: 1.2;
-  font-family: "Asap";
+  font-family: "Asap", sans-serif;
   text-align: center;
   color: #ffffff;
   letter-spacing: 1px;
@@ -224,7 +224,7 @@ a {
   font-weight: 300;
   font-size: 27px;
   line-height: 1;
-  font-family: "Segoe UI";
+  font-family: "Segoe UI", sans-serif;
   text-align: center;
   color: #000000;
   letter-spacing: 0;
@@ -275,7 +275,7 @@ a {
 
   font-weight: 400;
   font-size: 37px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   color: #ffffff;
   letter-spacing: 0.3px;
 }
@@ -309,7 +309,7 @@ a {
   font-weight: 300;
   font-size: 29px;
   line-height: 38px;
-  font-family: "Segoe UI";
+  font-family: "Segoe UI", sans-serif;
   color: #ffffff;
   letter-spacing: 0;
 }
@@ -336,7 +336,7 @@ a {
   font-weight: 300;
   font-size: 25px;
   line-height: 38px;
-  font-family: "Segoe WP";
+  font-family: "Segoe WP", sans-serif;
   text-align: right;
   color: #ffffff;
   letter-spacing: 0;
@@ -375,7 +375,7 @@ a {
   font-weight: bold;
   font-size: 51px;
   line-height: 1;
-  font-family: "Segoe UI";
+  font-family: "Segoe UI", sans-serif;
   color: #ffffff;
   letter-spacing: 1px;
 }
@@ -383,7 +383,7 @@ a {
 .section2__date-block_month {
   font-size: 21px;
   line-height: 1;
-  font-family: "Segoe UI";
+  font-family: "Segoe UI", sans-serif;
   color: #b26529;
   letter-spacing: 0;
 }
@@ -476,7 +476,7 @@ input[type="range"]::-ms-thumb {
 
   font-weight: 400;
   font-size: 43px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   text-align: center;
   color: #f5c506;
   letter-spacing: 0.3px;
@@ -507,7 +507,7 @@ input[type="range"]::-ms-thumb {
   font-weight: 700;
   font-size: 19px;
   line-height: 6.4;
-  font-family: "PT Sans Narrow";
+  font-family: "PT Sans Narrow", sans-serif;
   color: #ffffff;
   letter-spacing: 0;
 }
@@ -541,7 +541,7 @@ input[type="range"]::-ms-thumb {
 
   font-weight: 400;
   font-size: 22px;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   color: #a9a9a7;
   letter-spacing: 0;
 }
@@ -567,7 +567,7 @@ input[type="range"]::-ms-thumb {
   font-style: italic;
   font-weight: 100;
   font-size: 29px;
-  font-family: "Lucida Sans";
+  font-family: "Lucida Sans", sans-serif;
   text-align: center;
   color: #ffffff;
   letter-spacing: 0;
@@ -575,7 +575,7 @@ input[type="range"]::-ms-thumb {
 
 .logo-footer {
   width: 170px;
-  padding: 8px 0;
+  padding: 7px 0 8px 0;
 }
 /* footer end */
 /* section2_mobiblock */
@@ -613,7 +613,7 @@ input[type="range"]::-ms-thumb {
 
   list-style-type: none;
   font-size: 13px;
-  font-family: "Arial";
+  font-family: "Arial", sans-serif;
   color: #8f8e8e;
   letter-spacing: 0;
 }
@@ -713,7 +713,7 @@ input[type="range"]::-ms-thumb {
 
   font-size: 15px;
   line-height: 2;
-  font-family: "Arial";
+  font-family: "Arial", sans-serif;
   color: #ffffff;
   letter-spacing: 0;
 
@@ -832,7 +832,7 @@ input[type="range"]::-ms-thumb {
   }
 
   .logo_position {
-    padding: 11px 23px 12px 12px;
+    padding: 11px 23px 8px 12px;
   }
 
   .navbar_button_margin-right {
@@ -947,7 +947,7 @@ input[type="range"]::-ms-thumb {
 
   .double-block__text-block_text-styles {
     line-height: 33px;
-    font-family: "Segoe UI";
+    font-family: "Segoe UI", sans-serif;
   }
 
   .section2-mobiblock {
@@ -961,7 +961,7 @@ input[type="range"]::-ms-thumb {
     padding-bottom: 77px;
 
     font-size: 39px;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     letter-spacing: 0.3px;
   }
 
