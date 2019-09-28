@@ -455,6 +455,9 @@ input[type="range"]::-ms-thumb {
   -moz-appearance: none;
 }
 
+.section2-mobiblock {
+  display: none;
+}
 /* input range styles end */
 /* section2 styles end */
 
@@ -945,6 +948,10 @@ input[type="range"]::-ms-thumb {
   .double-block__text-block_text-styles {
     line-height: 33px;
     font-family: "Segoe UI";
+  }
+
+  .section2-mobiblock {
+    display: block;
   }
   /* section2 styles end */
   /* section3 styles */
